@@ -51,12 +51,12 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="• سوࢪس سبايدࢪ •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سوࢪس الخليفه •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• قـنـاة الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/WWWL5"
+            text="• مطوࢪ السورس •", url="https://t.m/H_M_Dr"
         ),
         InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
     ],
@@ -71,12 +71,12 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="• سوࢪس سبايدࢪ •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• سوࢪس الخليفه •", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="• قـنـاة الدعم •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/WWWL5"
+            text="• مطوࢪ السورس •", url="https://t.me/H_M_Dr"
         ),
         InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
     ],
@@ -96,15 +96,15 @@ helpmenu = [
     ],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_home"),
-        InlineKeyboardButton(text="• مسح •", callback_data="close"),
+        InlineKeyboardButton(text="• اغلاق •", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="• قـنـاة الدعم •", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="• ࢪجوع •", callback_data="fallen_help"),
-        InlineKeyboardButton(text="• مسح •", callback_data="close"),
+        InlineKeyboardButton(text="• اغلاق •", callback_data="close"),
     ],
 ]
