@@ -38,7 +38,7 @@ async def fallen_st(_, message: Message):
         if len(message.text.split()) > 1:
             cmd = message.text.split(None, 1)[1]
             if cmd[0:3] == "inf":
-                m = await message.reply_text("⚡")
+                m = await message.reply_text("جارٍ التشغيل...")
                 query = (str(cmd)).replace("info_", "", 1)
                 query = f"https://www.youtube.com/watch?v={query}"
                 results = VideosSearch(query, limit=1)
@@ -68,7 +68,7 @@ async def fallen_st(_, message: Message):
                         [
                             InlineKeyboardButton(text="يوتيوب", url=link),
                             InlineKeyboardButton(
-                                text="جࢪوب الدعم", url=config.SUPPORT_CHAT
+                                text="قـنـاة الدعم", url=config.SUPPORT_CHAT
                             ),
                         ],
                     ]
